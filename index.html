@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lingesh G — Cybersecurity Portfolio</title>
+  <meta name="description" content="Lingesh G — Aspiring Pentester. CTF writeups, tools, projects and contact." />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Fira+Code&display=swap" rel="stylesheet">
+</head>
+<body class="dark">
+  <canvas id="matrixBg"></canvas>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>Lingesh G</h1>
+        <p class="role">Cybersecurity Enthusiast • Aspiring Pentester</p>
+      </div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#ctf">CTFs</a>
+        <a href="#contact">Contact</a>
+        <button id="themeToggle" aria-label="Toggle theme">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h2 class="big">Penetration Tester in Training</h2>
+          <p class="lead">
+            Passionate about ethical hacking, network security, and vulnerability research. Skilled in 
+            Kali Linux, Burp Suite, Wireshark, Metasploit, and Python scripting. Always eager to learn 
+            and solve challenging problems.
+          </p>
+          <div class="cta">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn outline" href="resume.pdf" target="_blank">Download CV</a>
+          </div>
+        </div>
+        <aside class="hero-right">
+          <div class="card profile-card">
+            <img alt="Profile" src="avatar.png" onerror="this.style.display='none'">
+            <h3>Lingesh G</h3>
+            <p>Trichy, India • B.Sc IT</p>
+            <div class="socials">
+              <a href="https://github.com/lingesxh" target="_blank">GitHub</a>
+              <a href="https://linkedin.com/in/lingesh-g-3aa19b2b0" target="_blank">LinkedIn</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section container">
+      <h2>About</h2>
+      <p>
+        I'm an aspiring penetration tester with hands-on practice in vulnerability assessment, exploitation,
+        and systems hardening. I enjoy CTFs, building automation scripts, and writing clear post-engagement
+        reports. Current focus: web app security, network auditing, and exploit development basics.
+      </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section dark-section">
+      <div class="container">
+        <h2>Skills & Tools</h2>
+        <div class="skills-grid">
+          <span class="skill">Python</span>
+          <span class="skill">Bash</span>
+          <span class="skill">Linux</span>
+          <span class="skill">Kali Linux</span>
+          <span class="skill">Burp Suite</span>
+          <span class="skill">Nmap</span>
+          <span class="skill">Metasploit</span>
+          <span class="skill">Wireshark</span>
+          <span class="skill">Scapy</span>
+          <span class="skill">Docker</span>
+          <span class="skill">OWASP</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section container">
+      <h2>Selected Projects</h2>
+      <div class="grid projects-grid">
+        <article class="project">
+          <h3>Web Vulnerability Scanner</h3>
+          <p>Python scanner that automates common checks (XSS, SQLi, LFI) and outputs structured reports.</p>
+          <p class="meta">Tech: Python, requests, BeautifulSoup</p>
+          <a class="link" href="https://github.com/lingesxh/vuln-scanner" target="_blank">View on GitHub</a>
+        </article>
+
+        <article class="project">
+          <h3>Packet Sniffer & Analyzer</h3>
+          <p>Scapy-based sniffer to capture and analyze suspicious traffic; exports PCAPs and CSV summaries.</p>
+          <p class="meta">Tech: Python, Scapy</p>
+          <a class="link" href="https://github.com/lingesxh/packet-sniffer" target="_blank">View on GitHub</a>
+        </article>
+
+        <article class="project">
+          <h3>CTF Writeups</h3>
+          <p>Documentation and walkthroughs for TryHackMe & HackTheBox challenges. Step-by-step explanations.</p>
+          <p class="meta">CTF: Web, Forensics, Crypto</p>
+          <a class="link" href="https://github.com/lingesxh/ctf-writeups" target="_blank">View Writeups</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- CTFs / Achievements -->
+    <section id="ctf" class="section dark-section">
+      <div class="container">
+        <h2>CTFs & Achievements</h2>
+        <ul class="achievements">
+          <li><strong>TryHackMe:</strong> 400+ points — Web & Linux paths</li>
+          <li><strong>HackTheBox:</strong> Active user — Completed beginner machines</li>
+          <li><strong>CEH:</strong> In progress — expected completion 2025</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section container">
+      <h2>Contact</h2>
+      <p>If you want to collaborate or have a bug bounty / internship opportunity, reach out:</p>
+      <div class="contact-row">
+        <div class="contact-card">
+          <h4>Email</h4>
+          <a href="mailto:glingesh59@gmail.com">glingesh59@gmail.com</a>
+        </div>
+        <div class="contact-card">
+          <h4>Profiles</h4>
+          <a href="https://github.com/lingesxh" target="_blank">GitHub</a><br>
+          <a href="https://tryhackme.com/p/your-username" target="_blank">TryHackMe</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Lingesh G — Aspiring Pentester • Built with HTML & CSS</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
